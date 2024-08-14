@@ -12,3 +12,22 @@
 .txtTitulo {
     color: #f00;
 }
+
+.imagemHome {
+    height: 50rem;
+    width: 50rem;
+}
+
+.containerImagem {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+@media screen and (max-width: 960px) {
+    .containerImagem {
+        flex-direction: column;
+        justify-content: center;
+    }
+    
+}
